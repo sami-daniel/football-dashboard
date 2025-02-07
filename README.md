@@ -1,4 +1,4 @@
-# Projeto Laravel
+# Projeto Football-Dashboard
 
 Este é um projeto desenvolvido com o framework Laravel (PHP), um dos frameworks mais populares para construção de aplicações web.
 
@@ -32,6 +32,11 @@ composer install
 cp .env.example .env
 ```
 
+### 4. Gerando chave do sistema
+```bash
+php artisan key:generate
+```
+
 ## Configurar chave da API
 
 Entre no site do [Football Data Org](https://www.football-data.org/client/register).
@@ -41,7 +46,7 @@ Copie o token enviado no email.
 
 No terminal, digite: 
 ```
-echo cole-o-token-da-api-no-lugar-desse-texto > .env
+echo API_KEY=cole-o-token-da-api-no-lugar-desse-texto >> .env
 ```
 ### 4. Rodar o projeto
 
