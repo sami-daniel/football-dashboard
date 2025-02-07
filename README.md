@@ -32,7 +32,12 @@ composer install
 cp .env.example .env
 ```
 
-### 4. Gerando chave do sistema
+### 4. Rodando migrações
+```bash
+php artisan migrate
+```
+
+### 5. Gerando chave do sistema
 ```bash
 php artisan key:generate
 ```
